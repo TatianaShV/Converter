@@ -1,7 +1,6 @@
 package ru.netology.graphics.image;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 public interface TextGraphicsConverter {
     /**
@@ -39,7 +38,9 @@ public interface TextGraphicsConverter {
 
     /**
      * Устанавливает символьную цветовую схему, которую будет использовать конвертер
+     *
      * @param schema
+     * @return
      */
     void setTextColorSchema(TextColorSchema schema);
 }
